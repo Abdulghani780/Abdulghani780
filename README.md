@@ -1,13 +1,13 @@
 <div align="center">
 
 <!-- 01. Animated Hero Banner -->
-<img src="assets/hero.svg" alt="Abdulghani Al-Shibami Hero" width="100%" />
+<img src="https://raw.githubusercontent.com/Abdulghani780/Abdulghani780/main/assets/hero.svg" alt="Abdulghani Al-Shibami Hero" width="100%" />
 
 <br/><br/>
 
 <p align="center">
   <a href="mailto:samyemen987@gmail.com"><img src="https://img.shields.io/badge/Email-Direct_Contact-701A3D?style=for-the-badge&logo=gmail&logoColor=F8F0F3" alt="Email"></a>
-  <a href="https://github.com/Abdulghani780/Abdulghani-AlShibami-Portfolio"><img src="https://img.shields.io/badge/Portfolio-Engineering_System-190B12?style=for-the-badge&logo=vercel&logoColor=E5B5C7&borderColor=701A3D" alt="Portfolio"></a>
+  <a href="https://github.com/Abdulghani780/Abdulghani-AlShibami-Portfolio"><img src="https://img.shields.io/badge/Portfolio-Live_Platform-190B12?style=for-the-badge&logo=vercel&logoColor=E5B5C7&borderColor=701A3D" alt="Portfolio"></a>
   <a href="https://github.com/Abdulghani780"><img src="https://img.shields.io/badge/GitHub-Abdulghani780-10070C?style=for-the-badge&logo=github&logoColor=C77B9B" alt="GitHub"></a>
 </p>
 
@@ -109,10 +109,10 @@ Curated production-grade systems engineered with verifiable architectures:
   <table border="0">
     <tr>
       <td>
-        <img height="185" src="https://github-readme-stats.vercel.app/api?username=Abdulghani780&show_icons=true&title_color=E5B5C7&text_color=F8F0F3&icon_color=C77B9B&border_color=701A3D&bg_color=10070C&hide_border=false" alt="Abdulghani's GitHub Stats" />
+        <img height="185" src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=Abdulghani780&show_icons=true&title_color=E5B5C7&text_color=F8F0F3&icon_color=C77B9B&border_color=701A3D&bg_color=10070C&hide_border=false" alt="Abdulghani's GitHub Stats" />
       </td>
       <td>
-        <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdulghani780&layout=compact&title_color=E5B5C7&text_color=F8F0F3&border_color=701A3D&bg_color=10070C&hide_border=false" alt="Top Languages" />
+        <img height="185" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=Abdulghani780&layout=compact&title_color=E5B5C7&text_color=F8F0F3&border_color=701A3D&bg_color=10070C&hide_border=false" alt="Top Languages" />
       </td>
     </tr>
   </table>
@@ -120,21 +120,9 @@ Curated production-grade systems engineered with verifiable architectures:
 
 ---
 
-### 06 &bull; Contribution Activity Stream
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abdulghani780/Abdulghani780/output/github-contribution-grid-snake.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abdulghani780/Abdulghani780/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Abdulghani780/Abdulghani780/output/github-contribution-grid-snake.svg" width="100%" />
-  </picture>
-</div>
-
----
-
 <div align="center">
 
-<!-- 07. Minimal Animated SVG Footer -->
-<img src="assets/footer.svg" alt="Footer" width="100%" />
+<!-- 06. Minimal Animated SVG Footer -->
+<img src="https://raw.githubusercontent.com/Abdulghani780/Abdulghani780/main/assets/footer.svg" alt="Footer" width="100%" />
 
 </div>
