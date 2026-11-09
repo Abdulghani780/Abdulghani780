@@ -1,7 +1,12 @@
 <div align="center">
 
-<!-- Hero Animated Banner -->
-<img src="assets/hero.svg" alt="Abdulghani Al-Shibami — Hero" width="100%" />
+<!-- 3D Ultra-Luxury Cinematic Hero Banner -->
+<img src="assets/hero-3d.jpg" alt="Abdulghani Al-Shibami — 3D Executive Monolith" width="100%" />
+
+<br/><br/>
+
+<!-- Real-time Telemetry & Systems Status HUD -->
+<img src="assets/hero.svg" alt="Abdulghani Al-Shibami — Systems Architecture" width="100%" />
 
 <br/>
 
