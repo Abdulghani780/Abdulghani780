@@ -1,84 +1,62 @@
 <div align="center">
 
-<!-- 3D Holographic Animated Gyroscope & Architectural Core Banner -->
-<img src="assets/hero-3d-animated.svg" alt="Abdulghani Al-Shibami — 3D Holographic Architecture" width="100%" />
+<!-- 01. Animated Hero Banner -->
+<img src="assets/hero.svg" alt="Abdulghani Al-Shibami Hero" width="100%" />
 
 <br/><br/>
 
-<!-- Real-time Live Typing Terminal HUD -->
-<a href="https://github.com/Abdulghani780">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=1100&color=D4AF37&background=0B0B0E00&center=true&vCenter=true&width=860&height=46&lines=System.init(%22Abdulghani+Al-Shibami%22)+%7C+Systems+Architect+Online;Building+Resilient+Enterprise+Systems+(C%23+.NET+%2F+Oracle);Engineering+Intelligent+AI+Workstations+%26+Metaheuristics+(Python);Crafting+Ultra-Luxury+Full-Stack+Platforms+(Next.js+15);Open+for+High-Impact+Architectural+Challenges." alt="Live Typing Terminal" />
-</a>
-
-<br/>
-
-<!-- Direct Interactive Launchpad -->
 <p align="center">
-  <a href="https://github.com/Abdulghani780/Abdulghani-AlShibami-Portfolio">
-    <img src="https://img.shields.io/badge/%E2%96%B6_EXPLORE_FULL_3D_WEB_PORTFOLIO-D4AF37?style=for-the-badge&logo=three.js&logoColor=0B0B0E" alt="Launch 3D Web Experience" height="38" />
-  </a>
-  <a href="mailto:samyemen987@gmail.com">
-    <img src="https://img.shields.io/badge/Direct_Executive_Email-121216?style=for-the-badge&logo=gmail&logoColor=D4AF37&borderColor=D4AF37" alt="Email" height="38" />
-  </a>
-  <a href="https://github.com/Abdulghani780">
-    <img src="https://img.shields.io/badge/GitHub-Abdulghani780-121216?style=for-the-badge&logo=github&logoColor=D4AF37" alt="GitHub" height="38" />
-  </a>
+  <a href="mailto:samyemen987@gmail.com"><img src="https://img.shields.io/badge/Email-Direct_Contact-701A3D?style=for-the-badge&logo=gmail&logoColor=F8F0F3" alt="Email"></a>
+  <a href="https://github.com/Abdulghani780/Abdulghani-AlShibami-Portfolio"><img src="https://img.shields.io/badge/Portfolio-Engineering_System-190B12?style=for-the-badge&logo=vercel&logoColor=E5B5C7&borderColor=701A3D" alt="Portfolio"></a>
+  <a href="https://github.com/Abdulghani780"><img src="https://img.shields.io/badge/GitHub-Abdulghani780-10070C?style=for-the-badge&logo=github&logoColor=C77B9B" alt="GitHub"></a>
 </p>
 
 </div>
 
 ---
 
-### 🏛️ Executive Summary & Identity
+### 02 &bull; Concise Introduction
 
 > *"Engineering resilient systems at the intersection of enterprise software architecture, intelligent algorithms, and modern web platforms."*
 
-مرحباً بك! أنا **عبدالغني الشبامي (Abdulghani Al-Shibami)**، مهندس نظم حاسوب ومطور برمجيات متكامل. أركز على هندسة الحلول البرمجية عالية الكفاءة والموثوقية، من أنظمة سطح المكتب للمؤسسات الكبرى (Enterprise Desktop Systems) إلى خوارزميات الذكاء الاصطناعي ومحطات المحاكاة العلمية، وحتى منصات الويب الحديثة المبنية بأحدث معايير الأداء والـ UI/UX الفاخر.
+I am **Abdulghani Ali Al-Shibami (عبدالغني الشبامي)** — a Computer Systems Engineer and Full-Stack Software Developer based in Sana'a, Yemen. My engineering practice centers on building high-reliability enterprise desktop systems, scientific algorithmic workstations, and modern production-grade web applications.
 
 ```bash
-$ identity --verbose
-──────────────────────────────────────────────────────────────────
+$ identity --executive
+───────────────────────────────────────────────────────────────────────
 NAME          : Abdulghani Ali Al-Shibami (عبدالغني الشبامي)
-ROLE          : Computer Systems Engineer | Full-Stack & AI Solutions
-EDUCATION     : Information Technology & Computer Systems
-LOCATION      : Sana'a, Yemen 🇾🇪 (Open to Worldwide Remote Contracts)
-CORE FOCUS    : High-Reliability Desktop ERPs • AI & Optimization • Cloud Web
-STATUS        : Open for Architectural Challenges & High-Impact Projects
-──────────────────────────────────────────────────────────────────
+POSITIONING   : Computer Systems Engineer | Full-Stack | AI Solutions
+EDUCATION     : Information Technology & Computer Systems Engineering
+LOCATION      : Sana'a, Yemen 🇾🇪 (Open to Worldwide Remote Collaborations)
+CORE STACK    : C# .NET • Oracle DB • Python / SciPy • Next.js 15
+STATUS        : Open for High-Impact Architectural Projects
+───────────────────────────────────────────────────────────────────────
 ```
 
 ---
 
-### 🕋 3D Executive Command Monolith
+### 03 &bull; Selected Real Projects
 
-<div align="center">
-  <img src="assets/hero-3d.jpg" alt="Abdulghani Al-Shibami — 3D Cinematic Render" width="100%" style="border-radius: 12px; border: 1px solid #D4AF3740;" />
-</div>
-
----
-
-### 🏆 Flagship Verified Projects
-
-A curated selection of authentic, production-grade systems engineered from scratch:
+Curated production-grade systems engineered with verifiable architectures:
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="left">🖥️ Campus IT Tracker</h3>
-      <p><b>Enterprise Infrastructure & Hardware Management System</b></p>
-      <p>A mission-critical enterprise desktop workstation engineered for institutional hardware asset lifecycles, lab maintenance, and departmental tracking.</p>
+      <h4 align="left">🖥️ Campus IT Tracker</h4>
+      <p><b>Enterprise Infrastructure & Hardware Asset Lifecycle Workstation</b></p>
+      <p>A mission-critical enterprise desktop workstation engineered for institutional hardware lifecycles, lab maintenance, and departmental tracking.</p>
       <ul>
-        <li><b>Stack:</b> C# .NET 4.8 &bull; Windows Forms &bull; Oracle Database &bull; PL/SQL</li>
-        <li><b>Architecture:</b> Multi-tiered relational schemas, transaction integrity, automated status reporting.</li>
+        <li><b>Technologies:</b> C# .NET 4.8 &bull; Windows Forms &bull; Oracle DB &bull; PL/SQL</li>
+        <li><b>Architecture:</b> Multi-tiered relational schemas, transaction integrity, automated audit reporting.</li>
       </ul>
       <p>🔗 <b>Repository:</b> <a href="https://github.com/Abdulghani780/Campuse-IT-Tracker"><code>Abdulghani780/Campuse-IT-Tracker</code></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="left">🔬 MetaAlgorithm Lab</h3>
+      <h4 align="left">🔬 MetaAlgorithm Lab</h4>
       <p><b>Scientific Algorithmic Optimization & Analysis Workstation</b></p>
       <p>Interactive GUI platform implementing metaheuristic algorithms (Genetic, Particle Swarm, Simulated Annealing) with dynamic convergence visualizers.</p>
       <ul>
-        <li><b>Stack:</b> Python 3.10+ &bull; PyQt6 &bull; SciPy &bull; NumPy &bull; Matplotlib</li>
+        <li><b>Technologies:</b> Python 3.10+ &bull; PyQt6 &bull; SciPy &bull; NumPy &bull; Matplotlib</li>
         <li><b>Features:</b> Real-time parameter tuning, benchmark mathematical landscapes, dynamic telemetry.</li>
       </ul>
       <p>🔗 <b>Repository:</b> <a href="https://github.com/Abdulghani780/MetaAlgorithmLab"><code>Abdulghani780/MetaAlgorithmLab</code></a></p>
@@ -86,21 +64,21 @@ A curated selection of authentic, production-grade systems engineered from scrat
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="left">✨ Autonomous Personal Portfolio</h3>
+      <h4 align="left">✨ Autonomous Personal Portfolio</h4>
       <p><b>Production-Grade Bilingual Identity & Demo Platform</b></p>
-      <p>Luxury dark/gold web platform with in-browser client-side project sandboxes (simulating WinForms & Python without server dependencies).</p>
+      <p>Bespoke luxury web platform with in-browser client-side project sandboxes (simulating WinForms and Python platforms without server dependencies).</p>
       <ul>
-        <li><b>Stack:</b> Next.js 15 &bull; React 19 &bull; TypeScript &bull; Supabase &bull; Tailwind CSS &bull; Lenis</li>
+        <li><b>Technologies:</b> Next.js 15 &bull; React 19 &bull; TypeScript &bull; Supabase &bull; Tailwind CSS</li>
         <li><b>Quality:</b> WCAG AA compliance, 30 prerendered static routes, strict Zod validation.</li>
       </ul>
       <p>🔗 <b>Repository:</b> <a href="https://github.com/Abdulghani780/Abdulghani-AlShibami-Portfolio"><code>Abdulghani780/Abdulghani-AlShibami-Portfolio</code></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="left">🎓 Graduation Project Management Portal</h3>
+      <h4 align="left">🎓 Graduation Project Management Portal</h4>
       <p><b>Academic Governance & Defense Workflow Platform</b></p>
       <p>Comprehensive university management solution orchestrating student team proposals, supervisor assignments, committee evaluations, and milestone defenses.</p>
       <ul>
-        <li><b>Stack:</b> PHP 8 &bull; MySQL 8 &bull; Bootstrap 5 &bull; MVC Architecture</li>
+        <li><b>Technologies:</b> PHP 8 &bull; MySQL 8 &bull; Bootstrap 5 &bull; MVC Architecture</li>
         <li><b>Security:</b> Strict RBAC (Student / Advisor / Committee / Admin), audit logging.</li>
       </ul>
       <p>🔗 <b>Repository:</b> <a href="https://github.com/Abdulghani780/Graduation-Project-Management-Portal"><code>Abdulghani780/Graduation-Project-Management-Portal</code></a></p>
@@ -110,32 +88,31 @@ A curated selection of authentic, production-grade systems engineered from scrat
 
 ---
 
-### 🛠️ Technical Arsenal & Ecosystem
+### 04 &bull; Verified Skills & Toolchain
 
 <div align="center">
 
-| Domain | Technologies & Frameworks |
+| Category | Verified Technologies |
 |---|---|
-| **Enterprise & Systems** | ![C#](https://img.shields.io/badge/C%23_.NET-239120?style=flat-square&logo=csharp&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle_DB-F80000?style=flat-square&logo=oracle&logoColor=white) ![WinForms](https://img.shields.io/badge/WinForms-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Architecture](https://img.shields.io/badge/Clean_Architecture-D4AF37?style=flat-square) |
-| **AI & Scientific Computing** | ![Python](https://img.shields.io/badge/Python_3.10+-3776AB?style=flat-square&logo=python&logoColor=white) ![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) |
-| **Modern Web & Full-Stack** | ![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript_5-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) |
-| **Backend & Databases** | ![Supabase](https://img.shields.io/badge/Supabase_PostgreSQL-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![PHP](https://img.shields.io/badge/PHP_8-777BB4?style=flat-square&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL_8-4479A1?style=flat-square&logo=mysql&logoColor=white) ![REST](https://img.shields.io/badge/REST_APIs-D4AF37?style=flat-square) |
-| **DevOps & Tooling** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel_Edge-000000?style=flat-square&logo=vercel&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
+| **Enterprise & Systems** | `C#` &bull; `.NET Framework` &bull; `WinForms` &bull; `Oracle Database` &bull; `PL/SQL` &bull; `Clean Architecture` |
+| **AI & Scientific Computing** | `Python 3.10+` &bull; `PyQt6` &bull; `NumPy` &bull; `SciPy` &bull; `Matplotlib` &bull; `Metaheuristics` |
+| **Full-Stack & Cloud** | `Next.js 15` &bull; `React 19` &bull; `TypeScript` &bull; `Supabase (PostgreSQL)` &bull; `Tailwind CSS` &bull; `PHP 8` &bull; `MySQL` |
+| **DevOps & Infrastructure** | `Git` &bull; `GitHub Actions CI/CD` &bull; `Vercel Edge` &bull; `Linux` &bull; `REST APIs` |
 
 </div>
 
 ---
 
-### 📊 Engineering Telemetry & Activity
+### 05 &bull; Engineering Telemetry & Activity
 
 <div align="center">
   <table border="0">
     <tr>
       <td>
-        <img height="185" src="https://github-readme-stats.vercel.app/api?username=Abdulghani780&show_icons=true&title_color=D4AF37&text_color=E0E0E0&icon_color=D4AF37&border_color=D4AF3740&bg_color=0B0B0E&hide_border=false&rank_icon=github" alt="Abdulghani's GitHub Stats" />
+        <img height="185" src="https://github-readme-stats.vercel.app/api?username=Abdulghani780&show_icons=true&title_color=E5B5C7&text_color=F8F0F3&icon_color=C77B9B&border_color=701A3D&bg_color=10070C&hide_border=false" alt="Abdulghani's GitHub Stats" />
       </td>
       <td>
-        <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdulghani780&layout=compact&title_color=D4AF37&text_color=E0E0E0&border_color=D4AF3740&bg_color=0B0B0E&hide_border=false" alt="Top Languages" />
+        <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdulghani780&layout=compact&title_color=E5B5C7&text_color=F8F0F3&border_color=701A3D&bg_color=10070C&hide_border=false" alt="Top Languages" />
       </td>
     </tr>
   </table>
@@ -143,7 +120,7 @@ A curated selection of authentic, production-grade systems engineered from scrat
 
 ---
 
-### 🐍 Dynamic Contribution Activity Stream
+### 06 &bull; Contribution Activity Stream
 
 <div align="center">
   <picture>
@@ -157,7 +134,7 @@ A curated selection of authentic, production-grade systems engineered from scrat
 
 <div align="center">
 
-<!-- Footer Banner -->
+<!-- 07. Minimal Animated SVG Footer -->
 <img src="assets/footer.svg" alt="Footer" width="100%" />
 
 </div>
