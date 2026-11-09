@@ -114,9 +114,9 @@
   <g transform="translate(450, 186)" class="font-mono" font-size="12" text-anchor="middle">
     <text x="0" y="0" fill="#C77B9B" font-weight="500" letter-spacing="1">
       <tspan fill="#F8F0F3">ENTERPRISE SYSTEMS</tspan>
-      <tspan fill="#701A3D">  &bull;  </tspan>
+      <tspan fill="#701A3D">  •  </tspan>
       <tspan fill="#E5B5C7">AI &amp; ALGORITHMS</tspan>
-      <tspan fill="#701A3D">  &bull;  </tspan>
+      <tspan fill="#701A3D">  •  </tspan>
       <tspan fill="#F8F0F3">FULL-STACK CLOUD</tspan>
     </text>
   </g>
