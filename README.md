@@ -6,9 +6,9 @@
 <br/><br/>
 
 <p align="center">
-  <a href="mailto:samyemen987@gmail.com"><img src="https://img.shields.io/badge/Email-Direct_Contact-701A3D?style=for-the-badge&logo=gmail&logoColor=F8F0F3" alt="Email"></a>
-  <a href="https://github.com/Abdulghani780/Abdulghani-AlShibami-Portfolio"><img src="https://img.shields.io/badge/Portfolio-Live_Platform-190B12?style=for-the-badge&logo=vercel&logoColor=E5B5C7&borderColor=701A3D" alt="Portfolio"></a>
-  <a href="https://github.com/Abdulghani780"><img src="https://img.shields.io/badge/GitHub-Abdulghani780-10070C?style=for-the-badge&logo=github&logoColor=C77B9B" alt="GitHub"></a>
+  <a href="mailto:samyemen987@gmail.com"><img src="https://img.shields.io/badge/Email-Direct_Contact-701A3D?style=for-the-badge&logo=gmail&logoColor=F8F0F3" alt="Email Direct Contact"></a>
+  <a href="https://abdulghani-al-shibami-portfolio.vercel.app/en"><img src="https://img.shields.io/badge/Portfolio-Live_Platform-190B12?style=for-the-badge&logo=vercel&logoColor=E5B5C7&borderColor=701A3D" alt="Portfolio Live Platform"></a>
+  <a href="https://github.com/Abdulghani780"><img src="https://img.shields.io/badge/GitHub-Abdulghani780-10070C?style=for-the-badge&logo=github&logoColor=C77B9B" alt="GitHub Profile"></a>
 </p>
 
 </div>
@@ -71,7 +71,8 @@ Curated production-grade systems engineered with verifiable architectures:
         <li><b>Technologies:</b> Next.js 15 &bull; React 19 &bull; TypeScript &bull; Supabase &bull; Tailwind CSS</li>
         <li><b>Quality:</b> WCAG AA compliance, 30 prerendered static routes, strict Zod validation.</li>
       </ul>
-      <p>🔗 <b>Repository:</b> <a href="https://github.com/Abdulghani780/Abdulghani-AlShibami-Portfolio"><code>Abdulghani780/Abdulghani-AlShibami-Portfolio</code></a></p>
+      <p>🌐 <b>Live Platform:</b> <a href="https://abdulghani-al-shibami-portfolio.vercel.app/en"><code>abdulghani-al-shibami-portfolio.vercel.app</code></a><br/>
+      🔗 <b>Repository:</b> <a href="https://github.com/Abdulghani780/Abdulghani-AlShibami-Portfolio"><code>Abdulghani780/Abdulghani-AlShibami-Portfolio</code></a></p>
     </td>
     <td width="50%" valign="top">
       <h4 align="left">🎓 Graduation Project Management Portal</h4>
