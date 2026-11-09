@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 01. Animated Hero Banner -->
-<img src="https://raw.githubusercontent.com/Abdulghani780/Abdulghani780/main/assets/hero.svg" alt="Abdulghani Al-Shibami Hero" width="100%" />
+<img src="https://github.com/Abdulghani780/Abdulghani780/raw/main/assets/hero.svg" alt="Abdulghani Al-Shibami Hero" width="100%" />
 
 <br/><br/>
 
@@ -123,6 +123,6 @@ Curated production-grade systems engineered with verifiable architectures:
 <div align="center">
 
 <!-- 06. Minimal Animated SVG Footer -->
-<img src="https://raw.githubusercontent.com/Abdulghani780/Abdulghani780/main/assets/footer.svg" alt="Footer" width="100%" />
+<img src="https://github.com/Abdulghani780/Abdulghani780/raw/main/assets/footer.svg" alt="Footer" width="100%" />
 
 </div>
