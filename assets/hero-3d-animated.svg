@@ -1,0 +1,229 @@
+<svg width="100%" height="100%" viewBox="0 0 920 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="space-bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#14141A" />
+      <stop offset="60%" stop-color="#0B0B0E" />
+      <stop offset="100%" stop-color="#050507" />
+    </radialGradient>
+
+    <!-- Core Golden Glow -->
+    <radialGradient id="core-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF2B2" stop-opacity="0.9" />
+      <stop offset="30%" stop-color="#D4AF37" stop-opacity="0.6" />
+      <stop offset="70%" stop-color="#D4AF37" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Gold Metallic Gradients -->
+    <linearGradient id="gold-metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEFA6" />
+      <stop offset="25%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#AA820A" />
+      <stop offset="75%" stop-color="#F5DEB3" />
+      <stop offset="100%" stop-color="#997300" />
+    </linearGradient>
+
+    <linearGradient id="laser-beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FFF7CC" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Grid Patterns -->
+    <pattern id="isometric-dots" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1" fill="#D4AF37" fill-opacity="0.18" />
+      <path d="M 0 20 L 40 20 M 20 0 L 20 40" stroke="#D4AF37" stroke-width="0.3" stroke-opacity="0.05" />
+    </pattern>
+
+    <filter id="bloom" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="sharp-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur2" />
+      <feComposite in="SourceGraphic" in2="blur2" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "Roboto Mono", "Fira Code", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+
+    /* Continuous 3D Gyroscope Rotations */
+    @keyframes spinZ {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes spinRev {
+      0% { transform: rotate(360deg); }
+      100% { transform: rotate(0deg); }
+    }
+    @keyframes gyroTilt1 {
+      0%, 100% { transform: scale(1, 0.42) rotate(0deg); }
+      50% { transform: scale(1, 0.42) rotate(180deg); }
+    }
+    @keyframes gyroTilt2 {
+      0%, 100% { transform: scale(0.42, 1) rotate(0deg); }
+      50% { transform: scale(0.42, 1) rotate(-180deg); }
+    }
+    @keyframes float3D {
+      0%, 100% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-8px) scale(1.02); }
+    }
+    @keyframes pulseEnergy {
+      0%, 100% { opacity: 0.4; transform: scale(0.9); }
+      50% { opacity: 0.95; transform: scale(1.15); }
+    }
+    @keyframes sweepLaser {
+      0% { transform: translateY(0px); opacity: 0; }
+      15% { opacity: 0.8; }
+      85% { opacity: 0.8; }
+      100% { transform: translateY(340px); opacity: 0; }
+    }
+    @keyframes beaconGlow {
+      0%, 100% { r: 3; opacity: 0.6; }
+      50% { r: 5.5; opacity: 1; }
+    }
+    @keyframes particleUp {
+      0% { transform: translateY(0px) scale(0.8); opacity: 0; }
+      20% { opacity: 0.9; }
+      80% { opacity: 0.8; }
+      100% { transform: translateY(-160px) scale(1.2); opacity: 0; }
+    }
+
+    .anim-spin-cw { transform-origin: 460px 150px; animation: spinZ 20s linear infinite; }
+    .anim-spin-ccw { transform-origin: 460px 150px; animation: spinRev 14s linear infinite; }
+    .anim-gyro-1 { transform-origin: 460px 150px; animation: gyroTilt1 10s ease-in-out infinite; }
+    .anim-gyro-2 { transform-origin: 460px 150px; animation: gyroTilt2 12s ease-in-out infinite; }
+    .anim-float { animation: float3D 6s ease-in-out infinite; }
+    .anim-energy { transform-origin: 460px 150px; animation: pulseEnergy 3.5s ease-in-out infinite; }
+    .anim-laser { animation: sweepLaser 5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+    .anim-beacon { animation: beaconGlow 2.5s ease-in-out infinite; }
+    
+    .p1 { animation: particleUp 5s ease-in infinite; }
+    .p2 { animation: particleUp 7s ease-in infinite 1.5s; }
+    .p3 { animation: particleUp 6s ease-in infinite 3s; }
+    .p4 { animation: particleUp 8s ease-in infinite 2s; }
+  </style>
+
+  <!-- Canvas Frame -->
+  <rect width="920" height="380" rx="16" fill="url(#space-bg)" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.35" />
+
+  <!-- 3D Isometric Floor Grid -->
+  <g opacity="0.6">
+    <rect x="2" y="2" width="916" height="376" rx="15" fill="url(#isometric-dots)" />
+    <!-- Perspective Horizon Floor Lines -->
+    <path d="M 0 320 L 920 320" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.25" />
+    <path d="M 0 350 L 920 350" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.4" />
+    <path d="M 0 375 L 920 375" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.6" />
+    
+    <!-- Floor Ray Perspectives Converging toward Center -->
+    <line x1="460" y1="280" x2="40" y2="380" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.2" />
+    <line x1="460" y1="280" x2="160" y2="380" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.2" />
+    <line x1="460" y1="280" x2="300" y2="380" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.2" />
+    <line x1="460" y1="280" x2="620" y2="380" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.2" />
+    <line x1="460" y1="280" x2="760" y2="380" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.2" />
+    <line x1="460" y1="280" x2="880" y2="380" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.2" />
+  </g>
+
+  <!-- Scanning Laser Sweep -->
+  <line x1="20" y1="20" x2="900" y2="20" stroke="url(#laser-beam)" stroke-width="1.8" class="anim-laser" />
+
+  <!-- Ambient Light Core -->
+  <circle cx="460" cy="150" r="140" fill="url(#core-glow)" class="anim-energy" />
+
+  <!-- 3D Floating Gyroscope & Quantum Core Structure -->
+  <g class="anim-float">
+    <!-- Outer Orbital Ring with Tech Dots -->
+    <circle cx="460" cy="150" r="105" fill="none" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.45" stroke-dasharray="14 10 4 10" class="anim-spin-cw" />
+
+    <!-- Counter-Rotating Inner Ring with Markers -->
+    <circle cx="460" cy="150" r="85" fill="none" stroke="#FFEFA6" stroke-width="1.4" stroke-opacity="0.5" stroke-dasharray="30 18 8 18" class="anim-spin-ccw" />
+
+    <!-- 3D Tilting Gyro Ring 1 -->
+    <g class="anim-gyro-1">
+      <ellipse cx="460" cy="150" rx="95" ry="95" fill="none" stroke="#D4AF37" stroke-width="1.8" stroke-opacity="0.7" />
+      <circle cx="555" cy="150" r="4" fill="#FFF2B2" filter="url(#sharp-glow)" />
+      <circle cx="365" cy="150" r="4" fill="#FFF2B2" filter="url(#sharp-glow)" />
+    </g>
+
+    <!-- 3D Tilting Gyro Ring 2 -->
+    <g class="anim-gyro-2">
+      <ellipse cx="460" cy="150" rx="75" ry="75" fill="none" stroke="#F5DEB3" stroke-width="1.5" stroke-opacity="0.6" stroke-dasharray="20 12" />
+      <circle cx="460" cy="75" r="3.5" fill="#D4AF37" />
+      <circle cx="460" cy="225" r="3.5" fill="#D4AF37" />
+    </g>
+
+    <!-- Central 3D Octahedron / Quantum Emblem Wireframe -->
+    <g stroke="url(#gold-metal)" stroke-width="1.6" fill="none" filter="url(#sharp-glow)">
+      <!-- Top Pyramid -->
+      <polygon points="460,105 495,145 460,165 425,145" fill="#D4AF37" fill-opacity="0.12" />
+      <!-- Bottom Pyramid -->
+      <polygon points="460,195 495,155 460,135 425,155" fill="#FFEFA6" fill-opacity="0.08" />
+      <line x1="460" y1="105" x2="460" y2="195" stroke="#FFF7CC" stroke-width="1.5" />
+    </g>
+
+    <!-- Center Glowing Singularity Beacon -->
+    <circle cx="460" cy="150" r="6" fill="#FFF7CC" filter="url(#sharp-glow)" />
+  </g>
+
+  <!-- Floating Golden Micro-Particles -->
+  <g fill="#FFF2B2" filter="url(#sharp-glow)">
+    <circle cx="410" cy="240" r="1.8" class="p1" />
+    <circle cx="510" cy="230" r="1.5" class="p2" />
+    <circle cx="440" cy="260" r="2.2" class="p3" />
+    <circle cx="485" cy="250" r="1.4" class="p4" />
+    <circle cx="380" cy="220" r="1.6" class="p2" />
+    <circle cx="540" cy="210" r="2.0" class="p3" />
+  </g>
+
+  <!-- HUD Telemetry: Top Left Coordinates & Status -->
+  <g transform="translate(36, 40)" class="mono" font-size="11">
+    <rect x="-8" y="-14" width="220" height="48" rx="6" fill="#101016" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.3" />
+    <circle cx="6" cy="2" r="3.5" fill="#22C55E" class="anim-beacon" />
+    <text x="18" y="6" fill="#22C55E" font-weight="700" letter-spacing="1.5">3D_KERNEL // ACTIVE</text>
+    <text x="6" y="24" fill="#888899" font-size="10">SYS_COORD: 15.3694°N, 44.1910°E</text>
+  </g>
+
+  <!-- HUD Telemetry: Top Right Architecture Standard -->
+  <g transform="translate(670, 40)" class="mono" font-size="11">
+    <rect x="-8" y="-14" width="215" height="48" rx="6" fill="#101016" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.3" />
+    <text x="10" y="6" fill="#D4AF37" font-weight="700" letter-spacing="1">NEXT_GEN // ARCHITECT</text>
+    <text x="10" y="24" fill="#888899" font-size="10">RUNTIME: ZERO_FAIL_ENTERPRISE</text>
+  </g>
+
+  <!-- Lower Main Identity (Positioned majestically on 3D base) -->
+  <g transform="translate(460, 275)">
+    <!-- Golden Horizontal Architectural Rail -->
+    <line x1="-380" y1="-32" x2="380" y2="-32" stroke="url(#laser-beam)" stroke-width="1.4" />
+
+    <!-- Main Title -->
+    <text x="0" y="0" text-anchor="middle" class="sans" font-size="34" font-weight="900" fill="url(#gold-metal)" letter-spacing="4" filter="url(#bloom)">
+      ABDULGHANI AL-SHIBAMI
+    </text>
+
+    <!-- Submark in Arabic & English -->
+    <text x="0" y="28" text-anchor="middle" class="sans" font-size="15" font-weight="600" fill="#EAD79B" letter-spacing="1.5">
+      عبدالغني الشبامي &bull; COMPUTER SYSTEMS ENGINEER &bull; AI ARCHITECT
+    </text>
+
+    <!-- Pillars / Domains Indicator -->
+    <text x="0" y="52" text-anchor="middle" class="mono" font-size="11.5" fill="#9999AA" letter-spacing="1.5">
+      <tspan fill="#D4AF37">ENTERPRISE .NET</tspan>
+      <tspan fill="#D4AF37" fill-opacity="0.4"> &bull; </tspan>
+      <tspan fill="#FFF2B2">AI &amp; METAHEURISTICS</tspan>
+      <tspan fill="#D4AF37" fill-opacity="0.4"> &bull; </tspan>
+      <tspan fill="#D4AF37">NEXT.JS 15 CLOUD</tspan>
+    </text>
+  </g>
+
+  <!-- Precision Corner Geometry -->
+  <g stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.5">
+    <path d="M 20 16 L 20 34 M 14 22 L 32 22" />
+    <path d="M 900 16 L 900 34 M 888 22 L 906 22" />
+    <path d="M 20 348 L 20 366 M 14 354 L 32 354" />
+    <path d="M 900 348 L 900 366 M 888 354 L 906 354" />
+  </g>
+</svg>

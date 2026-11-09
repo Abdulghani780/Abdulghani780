@@ -1,23 +1,28 @@
 <div align="center">
 
-<!-- 3D Ultra-Luxury Cinematic Hero Banner -->
-<img src="assets/hero-3d.jpg" alt="Abdulghani Al-Shibami — 3D Executive Monolith" width="100%" />
+<!-- 3D Holographic Animated Gyroscope & Architectural Core Banner -->
+<img src="assets/hero-3d-animated.svg" alt="Abdulghani Al-Shibami — 3D Holographic Architecture" width="100%" />
 
 <br/><br/>
 
-<!-- Real-time Telemetry & Systems Status HUD -->
-<img src="assets/hero.svg" alt="Abdulghani Al-Shibami — Systems Architecture" width="100%" />
+<!-- Real-time Live Typing Terminal HUD -->
+<a href="https://github.com/Abdulghani780">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=1100&color=D4AF37&background=0B0B0E00&center=true&vCenter=true&width=860&height=46&lines=System.init(%22Abdulghani+Al-Shibami%22)+%7C+Systems+Architect+Online;Building+Resilient+Enterprise+Systems+(C%23+.NET+%2F+Oracle);Engineering+Intelligent+AI+Workstations+%26+Metaheuristics+(Python);Crafting+Ultra-Luxury+Full-Stack+Platforms+(Next.js+15);Open+for+High-Impact+Architectural+Challenges." alt="Live Typing Terminal" />
+</a>
 
 <br/>
 
+<!-- Direct Interactive Launchpad -->
 <p align="center">
-  <b>Computer Systems Engineer</b> &bull; <b>AI Solutions Architect</b> &bull; <b>Full-Stack Developer</b>
-</p>
-
-<p align="center">
-  <a href="mailto:samyemen987@gmail.com"><img src="https://img.shields.io/badge/Email-Direct_Contact-D4AF37?style=for-the-badge&logo=gmail&logoColor=0B0B0E" alt="Email"></a>
-  <a href="https://github.com/Abdulghani780/Abdulghani-AlShibami-Portfolio"><img src="https://img.shields.io/badge/Portfolio-Live_Platform-0B0B0E?style=for-the-badge&logo=vercel&logoColor=D4AF37&borderColor=D4AF37" alt="Portfolio"></a>
-  <a href="https://github.com/Abdulghani780"><img src="https://img.shields.io/badge/GitHub-Abdulghani780-121216?style=for-the-badge&logo=github&logoColor=D4AF37" alt="GitHub"></a>
+  <a href="https://github.com/Abdulghani780/Abdulghani-AlShibami-Portfolio">
+    <img src="https://img.shields.io/badge/%E2%96%B6_EXPLORE_FULL_3D_WEB_PORTFOLIO-D4AF37?style=for-the-badge&logo=three.js&logoColor=0B0B0E" alt="Launch 3D Web Experience" height="38" />
+  </a>
+  <a href="mailto:samyemen987@gmail.com">
+    <img src="https://img.shields.io/badge/Direct_Executive_Email-121216?style=for-the-badge&logo=gmail&logoColor=D4AF37&borderColor=D4AF37" alt="Email" height="38" />
+  </a>
+  <a href="https://github.com/Abdulghani780">
+    <img src="https://img.shields.io/badge/GitHub-Abdulghani780-121216?style=for-the-badge&logo=github&logoColor=D4AF37" alt="GitHub" height="38" />
+  </a>
 </p>
 
 </div>
@@ -41,6 +46,14 @@ CORE FOCUS    : High-Reliability Desktop ERPs • AI & Optimization • Cloud We
 STATUS        : Open for Architectural Challenges & High-Impact Projects
 ──────────────────────────────────────────────────────────────────
 ```
+
+---
+
+### 🕋 3D Executive Command Monolith
+
+<div align="center">
+  <img src="assets/hero-3d.jpg" alt="Abdulghani Al-Shibami — 3D Cinematic Render" width="100%" style="border-radius: 12px; border: 1px solid #D4AF3740;" />
+</div>
 
 ---
 
@@ -130,7 +143,7 @@ A curated selection of authentic, production-grade systems engineered from scrat
 
 ---
 
-### 🐍 Contribution Activity Stream
+### 🐍 Dynamic Contribution Activity Stream
 
 <div align="center">
   <picture>
